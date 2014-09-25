@@ -1,0 +1,36 @@
+{
+  "name": "nltk",
+  "version": "0.0.0",
+  "description": "js tools for natural language processing",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bambii7/nltkjs.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Alexis Hope",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bambii7/nltkjs/issues"
+  },
+  "homepage": "https://github.com/bambii7/nltkjs",
+  "devDependencies": {
+    "grunt-cli": "~0.1.7",
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-jsdoc": "^0.5.7"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
